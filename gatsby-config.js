@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: `/devquestions`,
+  pathPrefix: `/static`,
   plugins: [
     'gatsby-plugin-react-helmet',
     {
