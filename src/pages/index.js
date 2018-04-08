@@ -5,6 +5,7 @@ import Link, { withPrefix } from 'gatsby-link'
 import { Emoji } from 'emoji-mart'
 
 import data from '../data'
+import favicon from './favicon.ico'
 import loadTheme from '../styles/loadTheme'
 
 const IndexPage = () => {
@@ -17,6 +18,7 @@ const IndexPage = () => {
         title={data.question.text}
         meta={[{ name: 'description', content: data.meta.text }]}
       >
+        <link rel="shortcut icon" type="image/png" href={favicon} />
         <link
           async
           rel="stylesheet"
