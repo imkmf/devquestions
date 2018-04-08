@@ -18,6 +18,8 @@ const IndexPage = () => {
         title={[data.question.text, 'devquestions'].join(' - ')}
         meta={[{ name: 'description', content: data.meta.text }]}
       >
+        <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async="" />
+        <script src={withPrefix('/static/js/onesignal.js')} async="" />
         <link rel="shortcut icon" type="image/png" href={favicon} />
         <link
           async
