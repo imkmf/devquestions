@@ -11,6 +11,7 @@ import loadTheme from '../styles/loadTheme'
 const IndexPage = () => {
   const theme = loadTheme(data.question.text)
   const cssPath = `/static/css/${theme}.css?v=${data.meta.assetVersion}`
+  const oneSignalPath = `/static/js/onesignal.js?v=${data.meta.assetVersion}`
 
   return (
     <article className="helvetica">
@@ -19,7 +20,7 @@ const IndexPage = () => {
         meta={[{ name: 'description', content: data.meta.text }]}
       >
         <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async="" />
-        <script src={withPrefix('/static/js/onesignal.js')} async="" />
+        <script src={withPrefix(oneSignalPath)} async="" />
         <link rel="shortcut icon" type="image/png" href={favicon} />
         <link
           async
