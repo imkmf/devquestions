@@ -11,7 +11,7 @@ const data = {
   question: {
     emoji: ':eyes:',
     text: 'coming soon...',
-    url: 'https://twitter.com/imkmf/status/983051907064152064',
+    url: 'https://twitter.com/byteconf/status/983121307188412421',
   },
 }
 
