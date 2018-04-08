@@ -1,6 +1,6 @@
 const data = {
   meta: {
-    assetVersion: '2',
+    assetVersion: '3',
     tagline: {
       text:
         'Powered by @byteconf - world-class developer conferences streamed online, for free',
