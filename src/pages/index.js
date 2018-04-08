@@ -15,7 +15,7 @@ const IndexPage = () => {
   return (
     <article className="helvetica">
       <Helmet
-        title={data.question.text}
+        title={[data.question.text, 'devquestions'].join(' - ')}
         meta={[{ name: 'description', content: data.meta.text }]}
       >
         <link rel="shortcut icon" type="image/png" href={favicon} />
