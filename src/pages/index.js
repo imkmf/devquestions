@@ -53,7 +53,8 @@ const IndexPage = () => {
         <meta name="twitter:site" content={`@byteconf`} />
         <meta name="twitter:image" content={coverPath} />
       </Helmet>
-      <header className="vh-100 base00-bg dt w-100">
+
+      <header className="vh-100 dt w-100">
         <div className="dtc v-mid cover ph3 ph4-m ph5-l">
           <h1 className="f2 f-subheadline-l measure lh-title fw9">
             <a className="link dim base07" href={data.question.url}>
@@ -61,10 +62,25 @@ const IndexPage = () => {
               {data.question.text} →
             </a>
           </h1>
-          <h3 className="base03">{data.meta.text}</h3>
+          <h2 className="base03">{data.meta.text}</h2>
+
+          <div className="w-100 h1 base03-bg" />
+
           <h3 className="base03">
-            <a className="link dim base08" href={data.meta.tagline.url}>
-              {data.meta.tagline.text}
+            <a className="link dim base05" href={data.meta.mailer.url}>
+              <Emoji emoji="envelope" native={true} /> {data.meta.mailer.text} →
+            </a>
+          </h3>
+
+          <h3 className="base03">
+            <a className="link dim base05" href={data.meta.archive.url}>
+              <Emoji emoji="book" native={true} /> {data.meta.archive.text} →
+            </a>
+          </h3>
+
+          <h3 className="base03">
+            <a className="link dim base06" href={data.meta.tagline.url}>
+              <Emoji emoji="muscle" native={true} /> {data.meta.tagline.text} →
             </a>
           </h3>
         </div>
