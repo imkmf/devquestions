@@ -20,7 +20,7 @@ const data = {
   question: {
     emoji: ':female-cook:',
     text: "What's the best open-source project you've discovered this month?",
-    url: 'https://twitter.com/byteconf/status/983121307188412421',
+    url: 'https://twitter.com/byteconf/status/983355847727308800',
   },
 }
 
