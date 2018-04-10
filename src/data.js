@@ -18,10 +18,10 @@ const data = {
     text: 'devquestions.co - a new developer question every weekday',
   },
   question: {
-    emoji: ':female-cook:',
-    text: "What's the best open-source project you've discovered this month?",
+    emoji: ':point_right:',
+    text: 'What open-source developer do you look up to? Why?',
     url:
-      'https://www.producthunt.com/ask/7850-what-s-the-best-open-source-project-you-ve-discovered-this-month',
+      'https://twitter.com/byteconf/status/983554136225411072',
   },
 }
 
