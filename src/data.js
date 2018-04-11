@@ -18,10 +18,10 @@ const data = {
     text: 'devquestions.co - a new developer question every weekday',
   },
   question: {
-    emoji: ':point_right:',
-    text: 'What open-source developer do you look up to? Why?',
-    url:
-      'https://twitter.com/byteconf/status/983554136225411072',
+    emoji: ':books:',
+    text:
+      "What's your favorite React/JavaScript blog post you’ve read this month?",
+    url: 'https://twitter.com/byteconf/status/984080704228098048',
   },
 }
 
