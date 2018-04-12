@@ -18,10 +18,10 @@ const data = {
     text: 'devquestions.co - a new developer question every weekday',
   },
   question: {
-    emoji: ':books:',
+    emoji: ':female-technologist:',
     text:
-      "What's your favorite React/JavaScript blog post you’ve read this month?",
-    url: 'https://twitter.com/byteconf/status/984080704228098048',
+      'What new programming language, framework, or tool do you want to learn this year?',
+    url: 'https://twitter.com/byteconf/status/984451651749666818',
   },
 }
 
