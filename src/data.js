@@ -18,10 +18,10 @@ const data = {
     text: 'devquestions.co - a new developer question every weekday',
   },
   question: {
-    emoji: ':face_with_cowboy_hat:',
+    emoji: ':stuck_out_tongue_winking_eye:',
     text:
-      "Are you using Redux in your React projects? If you aren't, what are you using instead?",
-    url: 'https://twitter.com/byteconf/status/984814038185000961',
+      "Did you write any code this weekend? Tell us about what you’re working on! ",
+    url: 'https://twitter.com/byteconf/status/985905254804766720',
   },
 }
 
