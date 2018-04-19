@@ -18,10 +18,11 @@ const data = {
     text: 'devquestions.co - a new developer question every weekday',
   },
   question: {
-    emoji: ':camping:',
-    text: 'What’s the strangest place you’ve written code in?',
+    emoji: ':briefcase:',
+    text:
+      'Are you looking for a programming gig? Show us your portfolio and what you’re looking for!',
     url:
-      'https://www.producthunt.com/ask/8006-what-s-the-strangest-place-you-ve-written-code-in',
+      'https://twitter.com/byteconf/status/986975573330182144',
   },
 }
 
