@@ -18,11 +18,9 @@ const data = {
     text: 'devquestions.co - a new developer question every weekday',
   },
   question: {
-    emoji: ':briefcase:',
-    text:
-      'Are you looking for a programming gig? Show us your portfolio and what you’re looking for!',
-    url:
-      'https://twitter.com/byteconf/status/986975573330182144',
+    emoji: ':bed:',
+    text: 'Are you working on any code this weekend?',
+    url: 'https://twitter.com/byteconf/status/987361229743144960',
   },
 }
 
